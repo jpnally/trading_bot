@@ -1,3 +1,4 @@
 .env
 price_data/
 __pycache__/
+results/equity
