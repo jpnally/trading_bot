@@ -1,0 +1,5 @@
+strategy,sharpe_ratio,max_drawdown,trade_count,exposure,return
+buy_and_hold,0.698,-0.674,1.0,1.0,1.002
+random_p05,-0.24,-0.702,137.0,0.433,-0.386
+random_p50,0.498,-0.538,157.0,0.497,0.421
+random_p95,1.208,-0.331,178.05,0.563,2.167
