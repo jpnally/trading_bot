@@ -6,8 +6,8 @@ from data import fetch_data
 
 coin = "BTC/USD"
 timeframe = "1h"
-fee = 0.005
-dev_end = "2025-01-01"
+fee = 0
+dev_end = "2026-01-01"
 flip_prob = 0.006 # ~1 trade per week
 num_seeds = 1000
 
