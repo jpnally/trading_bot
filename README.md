@@ -31,6 +31,6 @@ Results with zero fees:
 
 Random entry: the position flips between 0 and 1 (hold or not) with proability `flip_prob` for each candle. `flip_prob` is set at 0.006, which is approximately 1/168, corresponding to ~1 trade per week. Percentiles are calculated per metric, so a row is not a single run.
 
-Because BTC rose by 100% in the test period, buy and hold's total return is the same. Random entry strategies, with exposure of ~50%, also benefited from some of this price rise. Any real strategy must therefore outperform the two baselines to be worthwhile.
+Because BTC rose by 100% in the test period, buy and hold's total return is al 100%. Random entry strategies, with exposure of ~50%, also benefited from some of this price rise. Any real strategy must therefore outperform the two baselines to be worthwhile.
 
 ## Strategy
