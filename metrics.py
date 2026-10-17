@@ -16,7 +16,7 @@ def metrics(result, periods_in_year = 24*365):
 
     exposure = held.mean()
 
-    total_return = equity[-1] - 1
+    total_return = equity.iloc[-1] - 1
 
     return {
         "sharpe_ratio": float(sharpe_ratio),

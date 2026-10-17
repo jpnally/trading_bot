@@ -27,7 +27,7 @@ def fetch_data(coin, timeframe):
     since = datetime(2022,1,1,0,0,0, tzinfo=timezone.utc)
     since = int(since.timestamp()*1000)
 
-    end = datetime(2026,1,1,0,0,0, tzinfo=timezone.utc)
+    end = datetime(2026,10,1,0,0,0, tzinfo=timezone.utc)
     end = int(end.timestamp()*1000)
 
     all_candles = []
