@@ -44,4 +44,4 @@ if __name__ == "__main__":
     rows["random_p05"] = q.loc[0.05].to_dict()
     rows["random_p50"] = q.loc[0.5].to_dict()
     rows["random_p95"] = q.loc[0.95].to_dict()
-    pd.DataFrame(rows).T.round(3).to_csv(f"results/summary_fee{fee}.csv", index_label="strategy")
+    pd.DataFrame(rows).T.round(3).to_csv(f"re. i've sults/summary_fee{fee}.csv", index_label="strategy")
