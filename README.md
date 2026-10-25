@@ -8,7 +8,7 @@ Does a strategy using MACD and RSI outperform buy-and-hold and random entry base
 
 - Source: Crypto.com from ccxt library, BTC/USD 1hr candles.
 - Development range: 2022-01-01 $\rightarrow$ 2025-12-31.
-- Test range: 2026-01-01 $\rightarrow$ 2026-10-01
+- Test range: 2026-01-01 $\rightarrow$ 2026-10-01.
 - Only closed candles can be used to inform position changes, to avoid bias.
 
 ## Method
@@ -28,7 +28,7 @@ where $\bar{r}$ is the mean per-bar return, $\sigma_r$ is the standard deviation
 
 Buy and hold: BTC is bought at the beginning of the development period and held until the end of the period.
 
-Random entry: the position flips between 0 and 1 (hold or not) with probability `flip_prob` for each candle. `flip_prob` is set at 0.006, which is approximately 1/168, corresponding to ~1 trade per week. This was run for 1000 rng seeds. Percentiles are calculated per metric, so a row is not a single run.
+Random entry: the position flips between 1 and 0 (hold or not) with probability `flip_prob` for each candle. `flip_prob` is set at 0.006, which is approximately 1/168, corresponding to ~1 trade per week. This was run for 1000 rng seeds. Percentiles are calculated per metric, so a row is not a single run.
 
 ### Zero fee:
 
@@ -55,8 +55,7 @@ The addition of fees dramatically reduces return and Sharpe ratio. With about 20
 
 Each round-trip trade costs 1% in fees, so any real strategy must earn more than 1% per trade to break even.
 
-
-
 ## Strategy
 
 Not yet run.
+
